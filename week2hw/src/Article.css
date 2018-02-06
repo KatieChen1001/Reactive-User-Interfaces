@@ -1,26 +1,56 @@
-.articleContainer{
+* {
   font-family: "Georgia";
   margin:0 auto;
-  padding-right: 40px;
 }
 
-h2{
-  margin:0px;
+.container{
+  display: flex;
+  width: 800px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
 }
 
-.articleTitle{
-  font-size: 22px;
+.todayDate{
+  width:100px;
+  font-family: "arial";
+  font-size: 11px;
+  color:#999;
+}
+
+.articleContainer{
+  flex:2;
+  padding-right: 60px;
+}
+
+.articleContainer h2.articleTitle{
+  font-size: 23px;
   font-weight: 400;
-  line-height: 1.56rem;
+  line-height: 25px;
+  margin-bottom: 8px;
 }
 
-.articleDescription{
+.articleContainer p.articleDescription{
   font-size: 14px;
   color:#333;
 }
 
-.articleAuthor{
+.articleContainer p.articleAuthor{
   font-family: "arial";
   font-size: 11px;
   color:#999;
+  margin-top:11px;
+  margin-bottom: 9px;
+}
+
+.articleContainer p.articleAuthor span{
+  font-family: "arial";
+  text-transform: uppercase;
+
+}
+
+figure{
+  /*flex:1;*/
 }
