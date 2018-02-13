@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 
 class Button extends Component {
-  
   constructor(props) {
     super(props);
     this.buttonClicked = this.buttonClicked.bind(this);
@@ -15,7 +14,7 @@ class Button extends Component {
   render() {
     let classes = 'btn';
 
-    if(this.props.selected){
+    if(this.props.isSelected){
       classes += ' active';
     }
 

@@ -11,6 +11,10 @@ class App extends Component {
       selectedContent : "You have selected: "
     }
 
+    this.buttonNames = [
+      "First Button", "Second Button", "Third Button"
+    ]
+
     this.buttonClicked = this.buttonClicked.bind(this);
   }
 
@@ -22,16 +26,13 @@ class App extends Component {
   }
 
   render() {
-    const isButton1 = this.state.selected === "First Button";
-    const isButton2 = this.state.selected === "Second Button";
-    const isButton3 = this.state.selected === "Third Button";
+    const buttonElement = this.buttonNames.map(function(buttonNames, i){
+      return (<Button isSelected = {this.state.selected === buttonNames} buttonName = {buttonNames} onClick = {this.buttonClicked} key = {i} />);
+    }.bind(this));
 
     return (
       <div className="container">
-      <div className="btnContainer">
-        <Button selected = {isButton1} buttonName="First Button" onClick = {this.buttonClicked} />
-        <Button selected = {isButton2} buttonName="Second Button" onClick = {this.buttonClicked} />
-        <Button selected = {isButton3} buttonName="Third Button" onClick = {this.buttonClicked} />
+      <div className="btnContainer">{buttonElement}
       </div>
         <h1>{this.state.selectedContent}</h1>
       </div>
