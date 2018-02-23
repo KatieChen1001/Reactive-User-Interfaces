@@ -1,0 +1,41 @@
+.App {
+  width:1000px;
+  margin:0 auto;
+  display: flex;
+  font-family: "Helvetica";
+}
+
+
+
+.leftContainer{
+  width:400px;
+  height: auto;
+  padding-top:50px;
+  padding-left: 50px;
+}
+
+.rightContainer{
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 60px;
+  width: 400px;
+  height: 620px;
+  background-color: black;
+}
+
+.rightContainer{
+  color:white;
+}
+
+h1.title{
+  margin:0px;
+  font-size:80px;
+  margin-bottom: 150px;
+}
+
+p.loc, p.time{
+  font-family: "courier";
+  font-size:20px;
+  color:white;
+}
