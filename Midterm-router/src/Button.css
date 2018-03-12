@@ -1,0 +1,22 @@
+.filterButtons{
+  display: inline-block;
+  border: 1.5px solid #9dd7e7;   /* blue-ish border color */
+  border-radius: 8px;
+  background: none;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  padding: 4px 6px;
+  margin: 3px;
+}
+
+.filterButtons:hover{
+  cursor:pointer;
+}
+
+.filterButtons.active{
+  background-color: #9dd7e7;
+}
+
+.filterButtons.inactive{
+  background-color: white;
+}

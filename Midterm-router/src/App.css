@@ -1,0 +1,60 @@
+.App{
+  margin:0 auto;
+  width: 400px;
+  height:600px;
+  margin-top: 50px;
+  padding-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
+  overflow: scroll;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+  width: 250px;
+  margin: 0 auto;
+  margin-left: 40px;
+  margin-right: 20px;
+  text-align: left;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  font-size:14px;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  outline: none;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+.filterMenuContainer{
+  display: none;
+}
+
+.filterMenuContainer.active{
+  display: block;
+  margin-top:5px;
+  margin-bottom: 20px;
+
+}
+
+.filterBox{
+    margin-left:40px;
+}
+
+.filterMenuContainer span{
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+  color: #6e6e6e;
+}
+
+.Button{
+  margin-left:10px;
+}
+
+/* .fas.fa-filter{
+  color: #6e6e6e;
+} */

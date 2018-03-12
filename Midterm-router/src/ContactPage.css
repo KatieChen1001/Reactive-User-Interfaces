@@ -1,0 +1,48 @@
+.ContactPage {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ContactPage img{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ContactPage h1{
+  font-size:30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.ContactPage span{
+  display: inline-block;
+  margin-left: 8px;
+
+}
+
+.ContactPage p{
+  line-height: 1.5em;
+  margin: 0;
+  margin-left: 24px;
+  font-size:14px;
+  color: #575a5a;
+}
+
+.fas{
+  color: #9dd7e7;
+}
+
+.fas.fa-dollar-sign{
+  margin-left: 3px;
+  margin-right: 1px;
+}
+
+.backLink{
+  padding-bottom:30px;
+}
