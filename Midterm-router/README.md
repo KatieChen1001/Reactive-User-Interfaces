@@ -1,3 +1,11 @@
-# Router Advanced
+Midterm Project: "Snobby Address Book"
 
-This example shows how to make dynamic routes in React and React Router.
+Reactive User Interface @NYUShanghai IMA
+
+// 03.24, 2018 Update, Added:
+
+* Add Contact
+  * plus icon to toggle add contact form
+  * on Submit form hides
+* Local Storage
+  * On submit data is stored locally

@@ -1,0 +1,5 @@
+.Form input {
+  overflow: scroll;
+  padding: 5px 10px;
+  font-size: 12px;
+}
