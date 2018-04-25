@@ -5,7 +5,9 @@ class ProjectDetail extends Component {
     return (
       <div className="project-detail-wrapper">
         <h1>{this.props.projectContent.title}</h1>
-        <p>{this.props.projectContent.content}</p>
+        <div
+          dangerouslySetInnerHTML={{ __html: this.props.projectContent.body }}
+        />
       </div>
     );
   }

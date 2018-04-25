@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Thumbnail from "./ProjectThumbnail.js";
+import ProjectThumbnail from "./ProjectThumbnail.js";
 
 class Project extends Component {
   render() {
     const projectListing = this.props.projectData.map((projects, i) => {
       return (
         <Link to={"/projects/" + projects.id}>
-          <Thumbnail
+          <ProjectThumbnail
             projectTitle={projects.title}
             description={projects.description}
             keywords={projects.keywords}

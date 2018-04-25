@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Thumbnail extends Component {
+class ProjectThumbnail extends Component {
   render() {
     let idName = this.props.divID;
     return (
@@ -15,4 +15,4 @@ class Thumbnail extends Component {
   }
 }
 
-export default Thumbnail;
+export default ProjectThumbnail;

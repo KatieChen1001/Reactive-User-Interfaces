@@ -1,13 +1,23 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Menu from "./Menu.js";
+import WritingThumbnail from "./WritingThumbnail.js";
 
 class Writing extends Component {
   render() {
+    const articleListing = this.props.writingData.map((articles, i) => {
+      return (
+        <Link to={"/writings/" + articles.id}>
+          <WritingThumbnail
+            articleTitle={articles.title}
+            articleSnapshot={articles.snapshot}
+          />
+        </Link>
+      );
+    });
     return (
       <div>
-        <h1>Writing Listing</h1>
+        <div className="articleListing-container">{articleListing}</div>
         <Menu />
       </div>
     );

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Menu from "./Menu.js";
 
 class HomePage extends Component {
   render() {
@@ -17,7 +15,6 @@ class HomePage extends Component {
             <Link to="/writings">Write</Link>
           </h1>
         </div>
-        <Menu />
       </div>
     );
   }

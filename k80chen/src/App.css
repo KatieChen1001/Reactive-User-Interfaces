@@ -1,5 +1,14 @@
+/* Default styling for entire porfolio */
+
+* {
+  font-family: "Open Sans";
+}
 a {
   text-decoration: underline;
+  color: black;
+}
+
+p {
   color: black;
 }
 
@@ -76,12 +85,12 @@ li {
   transform: translate(-50%, -50%);
 }
 
-.project-thumbnail h1,
+/* .project-thumbnail h1,
 p {
   display: block;
   text-align: center;
   color: white;
-}
+} */
 
 .number0 {
   background-color: #ffe5e7;
@@ -102,6 +111,55 @@ p {
 
 /* Project Detail Page */
 
-.project-detail-wrapper p {
+/* .project-detail-wrapper p {
   color: black;
+} */
+
+/* Article Listing Styling */
+.articleListing-container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.articleListing-container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+}
+
+.articleListing-container a {
+  text-decoration: none;
+}
+
+/* Article Thumbnail Styling */
+
+.articleThumbnail-wrapper {
+  margin-bottom: 3em;
+}
+
+.articleThumbnail-wrapper h1 {
+  margin-bottom: 0.5em;
+}
+
+.articleImage-wrapper {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.articleImage-wrapper img {
+  width: 100%;
+}
+.articleThumbnail-icon-container {
+  /* margin-top: 1em; */
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.articleThumbnail-icon-container span {
+  padding-left: 0.8em;
+}
+
+.articleSnapshot-text-wrapper {
+  width: 40vw;
+  margin: 0 auto;
 }
