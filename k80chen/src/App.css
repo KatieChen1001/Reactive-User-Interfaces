@@ -2,17 +2,18 @@
 
 * {
   font-family: "Open Sans";
+  color: black;
+  cursor: default;
 }
 a {
   text-decoration: underline;
   color: black;
 }
-
-p {
-  color: black;
+a:hover {
+  cursor: pointer;
 }
 
-.HomePage {
+.landing-page {
   display: grid;
   grid-template-columns: [first-col-start] 50% [second-col-start] 50% [col-end];
   grid-template-rows: [first-row-start] auto [second-row-start] 50px [row-end];
@@ -40,9 +41,16 @@ p {
   text-align: center;
 }
 
+/* Display Area, subject to change based on screen size */
+.display-area {
+  width: 70vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Bottom Menu Bar Styling */
+
 .menu-container {
-  /* grid-row: [second-row-start] / [row-end]; */
-  /* grid-column: [first-col-start] / [col-end]; */
   position: fixed;
   bottom: 0px;
   height: 50px;
@@ -63,34 +71,47 @@ li {
   padding-right: 10px;
 }
 
+/* Project Listing Styling */
+
 .projectListing-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
+.projectListing-container a {
+  text-decoration: none;
+}
+
 .project-thumbnail {
   width: 50vw;
   height: 50vh;
-  /* display: flex;
+  text-align: center;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-  position: relative;
+  align-items: center;
 }
+
+/* Project Thumbnail Styling */
 
 .project-text-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: calc(100% - 150px);
+}
+.project-text-wrapper:hover {
+  cursor: pointer;
+}
+.project-text-wrapper h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.08em;
 }
 
-/* .project-thumbnail h1,
-p {
-  display: block;
-  text-align: center;
-  color: white;
-} */
+.project-text-wrapper p,
+span {
+  font-family: serif;
+  font-style: italic;
+  font-size: 18px;
+}
 
 .number0 {
   background-color: #ffe5e7;
@@ -105,30 +126,90 @@ p {
 .number3 {
   background-color: #f4d8df;
 }
-.project-thumbnail h1 {
-  text-transform: uppercase;
+
+/* ============ Project Detail Page ============ */
+.project-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: "Open Sans";
+  font-weight: 300;
 }
 
-/* Project Detail Page */
+h1.project-title {
+  font-size: 3em;
+  margin-bottom: 0.1em;
+  font-weight: 300;
+}
 
-/* .project-detail-wrapper p {
-  color: black;
-} */
+span.project-abstract {
+  font-size: 1.5em;
+  font-style: normal;
+  font-family: "Open Sans";
+}
 
-/* Article Listing Styling */
+.project-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span.project-img-description {
+  font-size: 16px;
+  color: #6d6d6d;
+  font-style: normal;
+  font-family: "Open Sans";
+  display: block;
+}
+
+.project-img {
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+h2.project-section-title {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+p.project-text {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 18px;
+  color: #6d6d6d;
+  line-height: 1.5em;
+}
+
+h3.project-subsection-title {
+  width: 50vw;
+  margin: 0 auto;
+  font-weight: 400;
+  color: #6d6d6d;
+  text-align: left;
+  margin-bottom: 0.8em;
+}
+
+/* ============ Article Listing Styling ============ */
 .articleListing-container {
-  width: 70vw;
   margin: 0 auto;
 }
 
 .articleListing-container h1 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
 
 .articleListing-container a {
   text-decoration: none;
+}
+
+.articleSnapshot-text-wrapper p {
+  text-align: left;
 }
 
 /* Article Thumbnail Styling */
@@ -138,7 +219,7 @@ p {
 }
 
 .articleThumbnail-wrapper h1 {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.1em;
 }
 
 .articleImage-wrapper {
@@ -150,7 +231,6 @@ p {
   width: 100%;
 }
 .articleThumbnail-icon-container {
-  /* margin-top: 1em; */
   text-align: center;
   font-size: 0.8em;
 }
@@ -162,4 +242,47 @@ p {
 .articleSnapshot-text-wrapper {
   width: 40vw;
   margin: 0 auto;
+}
+
+/* Article Page Styling */
+.writing-detail-wrapper {
+  /* width: 70vw; */
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+
+.writing-detail-wrapper h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.95em;
+  letter-spacing: 0.2em;
+}
+
+.writing-detail-wrapper p {
+  text-align: left;
+}
+
+.text-wrapper {
+  width: 50vw;
+  color: red;
+}
+
+/* =============== Artist Button ============== */
+.artist-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Project : HOLOGLASS */
+#specialThanks {
+  text-align: center;
+}
+
+/* Project : Miniature Artists */
+.artist-btn-panel {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: center;
 }

@@ -1,59 +1,36 @@
 const ProjectData = [
   {
-    title: "title 1",
-    description: "some description",
-    keywords: "#KeyWords",
-    body: `
-    <p>lkjadlsknclas bljandsldx</p>
-    <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-    <p>salkdjalsndalskdmaksdm</p>
-    `,
-    tags: ["drink", "eat"],
-    id: "title1"
+    title: "Miniature Artists",
+    description:
+      "“A generative signature for renowned artists inspired by their appropriate art style”",
+    keywords: "#p5.js #generativeArt",
+    // tags: ["drink", "eat"],
+    id: "Miniature-Artists"
   },
   {
-    title: "title 2",
-    description: "some description",
-    keywords: "#KeyWords",
-    body: `
-    <p>lkjadlsknclas bljandsldx</p>
-    <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
+    title: "The Hunger Games",
+    description:
+      "“An interactive web storytelling that raises awareness of the environmental impact of the food packaging from food delivery services in China”",
+    keywords: "#React.js",
+    // tags: ["drink", "eat"],
+    id: "The-Hunger-Games"
+  },
+  {
+    title: "HoloGlass",
+    description:
+      "“A holographic art portfolio viewing application on the Microsoft HoloLens for curators”",
+    keywords: "#HoloLens #UX Design #MixedReality",
+    // tags: ["drink", "eat"],
+    id: "HoloGlass"
+  },
 
-    </p>salkdjalsndalskdmaksdm</p>
-    `,
-    tags: ["drink", "eat"],
-    id: "title2"
-  },
   {
-    title: "title 3",
-    description: "some description",
-    keywords: "#KeyWords",
-    body: `
-    <p>lkjadlsknclas bljandsldx</p>
-    <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-    </p>salkdjalsndalskdmaksdm</p>
-    `,
-    tags: ["drink", "eat"],
-    id: "title3"
-  },
-  {
-    title: "title 4",
-    description: "some description",
-    keywords: "#KeyWords",
-    body: `
-    <p>lkjadlsknclas bljandsldx</p>
-    <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-    </p>salkdjalsndalskdmaksdm</p>
-      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-
-        <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a></img>
-    `,
-    tags: ["drink", "eat"],
-    id: "title4"
+    title: "Tornado Simulation",
+    description:
+      "“A tornado simulation inspired by Nature of Code by Daniel Shiffman”",
+    keywords: "#NatureOfCode #p5.js",
+    // tags: ["drink", "eat"],
+    id: "Tornado-simulation"
   }
 ];
 

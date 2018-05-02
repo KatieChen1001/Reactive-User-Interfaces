@@ -5,7 +5,7 @@ class WritingThumbnail extends Component {
     return (
       <div className="articleThumbnail-wrapper">
         <div className="articleImage-wrapper">
-          <img src="/assets/0.jpg" alt="placeholder Image" />
+          <img src="/assets/0.jpg" alt="placeholder" />
         </div>
 
         <h1>{this.props.articleTitle}</h1>

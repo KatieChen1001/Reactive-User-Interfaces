@@ -8,7 +8,7 @@ class ProjectThumbnail extends Component {
         <div className="project-text-wrapper">
           <h1>{this.props.projectTitle}</h1>
           <p>{this.props.description}</p>
-          <p>{this.props.keywords}</p>
+          <span>{this.props.keywords}</span>
         </div>
       </div>
     );

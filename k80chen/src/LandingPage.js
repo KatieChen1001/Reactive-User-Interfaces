@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class HomePage extends Component {
+class LandingPage extends Component {
   render() {
     return (
-      <div className="HomePage">
+      <div className="landing-page">
         <div className="landing-page-container left">
           <h1>
             <Link to="/projects">Code</Link>
@@ -20,4 +20,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default LandingPage;

@@ -17,7 +17,9 @@ class Writing extends Component {
     });
     return (
       <div>
-        <div className="articleListing-container">{articleListing}</div>
+        <div className="articleListing-container display-area">
+          {articleListing}
+        </div>
         <Menu />
       </div>
     );
