@@ -7,12 +7,12 @@ class LandingPage extends Component {
       <div className="landing-page">
         <div className="landing-page-container left">
           <h1>
-            <Link to="/projects">Code</Link>
+            <Link to="/projects">Wanna-be Programmer</Link>
           </h1>
         </div>
         <div className="landing-page-container right">
           <h1>
-            <Link to="/writings">Write</Link>
+            <Link to="/writings">Wanna-be Writer</Link>
           </h1>
         </div>
       </div>

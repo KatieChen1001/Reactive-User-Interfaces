@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import "./ProjectDetail.css";
 
 class HoloGlass extends Component {
   render() {
@@ -108,6 +107,7 @@ class HoloGlass extends Component {
             src="//e.issuu.com/embed.html#27303575/60833938"
             frameBorder={0}
             allowFullScreen
+            title="HoloGlass Production Booklet"
           />
         </div>
       </div>

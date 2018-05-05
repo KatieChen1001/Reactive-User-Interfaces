@@ -1,7 +1,7 @@
 const WritingData = [
   {
     title: "Fernando Botero",
-    tag: "travel",
+    tag: "Art",
     snapshot:
       "Lorem ipsum dolor sit amet, pri agam iusto senserit et, mel vocibus copiosae philosophia an. Ea cum saepe meliore complectitur, ius et novum discere accumsan. Cum an oratio putant, eam inimicus postulant te. Ea vix maiorum vivendo corrumpit, qui feugait legendos et. Blandit quaestio pri te. Verear adipiscing an duo. His quod graeco docendi ut, ei duo meis paulo admodum. Eos atqui liber maiorum te, affert deseruisse efficiendi vix ne. Mei quis atqui eu, eos in velit adolescenpercipitur.",
     body: `
@@ -15,11 +15,11 @@ const WritingData = [
     </p>
 
     `,
-    id: "title1"
+    id: "Fernando Botero"
   },
   {
     title: "title 2",
-    tag: "travel",
+    tag: "On the Road",
     snapshot:
       "Lorem ipsum dolor sit amet, pri agam iusto senserit et, mel vocibus copiosae philosophia an. Ea cum saepe meliore complectitur, ius et novum discere accumsan. Cum an oratio putant, eam inimicus postulant te. Ea vix maiorum vivendo corrumpit, qui feugait legendos et. Blandit quaestio pri te. Verear adipiscing an duo. His quod graeco docendi ut, ei duo meis paulo admodum. Eos atqui liber maiorum te, affert deseruisse efficiendi vix ne. Mei quis atqui eu, eos in velit adolescenpercipitur.",
     body: "alsjdaksjbcakshbdgiqwuhdkjxbaljs",
@@ -27,7 +27,7 @@ const WritingData = [
   },
   {
     title: "title 3",
-    tag: "travel",
+    tag: "Thoughts",
     snapshot:
       "Lorem ipsum dolor sit amet, pri agam iusto senserit et, mel vocibus copiosae philosophia an. Ea cum saepe meliore complectitur, ius et novum discere accumsan. Cum an oratio putant, eam inimicus postulant te. Ea vix maiorum vivendo corrumpit, qui feugait legendos et. Blandit quaestio pri te. Verear adipiscing an duo. His quod graeco docendi ut, ei duo meis paulo admodum. Eos atqui liber maiorum te, affert deseruisse efficiendi vix ne. Mei quis atqui eu, eos in velit adolescenpercipitur.",
     body: "alsjdaksjbcakshbdgiqwuhdkjxbaljs",
@@ -35,7 +35,7 @@ const WritingData = [
   },
   {
     title: "title 4",
-    tag: "travel",
+    tag: "Three Sentence Initiative",
     snapshot:
       "Lorem ipsum dolor sit amet, pri agam iusto senserit et, mel vocibus copiosae philosophia an. Ea cum saepe meliore complectitur, ius et novum discere accumsan. Cum an oratio putant, eam inimicus postulant te. Ea vix maiorum vivendo corrumpit, qui feugait legendos et. Blandit quaestio pri te. Verear adipiscing an duo. His quod graeco docendi ut, ei duo meis paulo admodum. Eos atqui liber maiorum te, affert deseruisse efficiendi vix ne. Mei quis atqui eu, eos in velit adolescenpercipitur.",
     body: "alsjdaksjbcakshbdgiqwuhdkjxbaljs",

@@ -1,6 +1,5 @@
-// Programing Design Systems Fall 2017
-// NYU Shanghai IMA
-// Katie Chen - "Artists Reduced --- Pablo Picasso"
+// "Miniature Artists -- Pablo Picasso"
+// All Rights Reserved
 
 export default function sketch(picasso) {
   const canvasSize = 500;
@@ -29,9 +28,6 @@ export default function sketch(picasso) {
   let ramBodyClr = picasso.floor(picasso.random(2));
   let ramHat = picasso.random(0.9);
   let ramNoseClr = picasso.floor(picasso.random(5));
-  let ramLegClr = picasso.floor(picasso.random(2));
-  let ramEarBtmClr = picasso.floor(picasso.random(4));
-  let ramEarClr = picasso.floor(picasso.random(2));
 
   picasso.myCustomRedrawAccordingToNewPropsHandler = function(props) {
     if (props.ramBgClr) {
@@ -48,17 +44,6 @@ export default function sketch(picasso) {
 
     if (props.ramNoseClr) {
       ramNoseClr = props.ramNoseClr;
-    }
-    if (props.ramLegClr) {
-      ramLegClr = props.ramLegClr;
-    }
-
-    if (props.ramEarBtmClr) {
-      ramEarBtmClr = props.ramEarBtmClr;
-    }
-
-    if (props.ramEarClr) {
-      ramEarClr = props.ramEarClr;
     }
   };
 
@@ -119,7 +104,6 @@ export default function sketch(picasso) {
       } else {
         picasso.fill(picasso.color(hatColor[1]));
       }
-      // const trapezoidHatHeight = spaceBetweenEye * 3;
       picasso.beginShape();
       picasso.vertex(
         -1 * PicassoWidth * 1.3 / 2,

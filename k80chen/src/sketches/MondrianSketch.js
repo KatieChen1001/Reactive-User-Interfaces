@@ -1,10 +1,8 @@
-// Programing Design Systems Fall 2017
-// NYU Shanghai IMA
-// Katie Chen - "Artists Reduced --- Piet Mondrian"
+// "Miniature Artists -- Piet Mondrian"
+// All Rights Reserved
 
 export default function sketch(Mondrian) {
   const canvasSize = 500; // size of canvas
-  const frame = canvasSize * 3 / 4; // size of frame
   const brush = 1500 * 0.001; // strokeWeight
   const MondrianColor = ["#fff001", "#ff0101", "#0101fd"];
 

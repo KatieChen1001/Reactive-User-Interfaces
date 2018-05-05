@@ -62,7 +62,6 @@ a:hover {
 .menu-container ul,
 li {
   list-style-type: none;
-
   float: left;
 }
 
@@ -142,12 +141,6 @@ h1.project-title {
   font-weight: 300;
 }
 
-span.project-abstract {
-  font-size: 1.5em;
-  font-style: normal;
-  font-family: "Open Sans";
-}
-
 .project-img-container {
   display: flex;
   flex-direction: column;
@@ -171,6 +164,7 @@ h2.project-section-title {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 300;
+  letter-spacing: 0.1em;
 }
 
 p.project-text {
@@ -244,7 +238,35 @@ h3.project-subsection-title {
   margin: 0 auto;
 }
 
-/* Article Page Styling */
+/* Article Listing Page Side Bar Styling */
+.article-listing-sidebar ul li {
+  float: none;
+  list-style: none;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+@keyframes sidebarUnderline {
+  from {
+    border-bottom: none;
+  }
+  to {
+    border-bottom: 2px solid #333;
+  }
+}
+
+.article-listing-sidebar li:hover {
+  cursor: pointer;
+  animation: sidebarUnderline 1s;
+}
+
+.article-listing-sidebar {
+  position: fixed;
+  width: 20vw;
+  max-width: 200px;
+}
+
+/* =========== Individual Article Page Styling ============== */
 .writing-detail-wrapper {
   /* width: 70vw; */
   margin: 0 auto;
@@ -268,21 +290,39 @@ h3.project-subsection-title {
   color: red;
 }
 
-/* =============== Artist Button ============== */
-.artist-btn {
-  display: flex;
-  flex-direction: column;
-}
-
 /* Project : HOLOGLASS */
 #specialThanks {
   text-align: center;
 }
 
-/* Project : Miniature Artists */
+/* =============== Project : Miniature Artists ============= */
+/* Artist Button */
+.artist-btn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.artist-btn span {
+  font-style: normal;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+
 .artist-btn-panel {
   display: flex;
   flex-direction: row;
   width: 70vw;
   justify-content: center;
+  margin-top: 10px;
+}
+span.artist-btn-panel-span {
+  font-size: 12px;
+  font-style: normal;
+  font-family: "Open Sans";
+}
+
+#mini-poster {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }

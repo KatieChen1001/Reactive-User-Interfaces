@@ -1,6 +1,5 @@
-// Programing Design Systems Fall 2017
-// NYU Shanghai IMA
-// Katie Chen - "Artists Reduced --- Andy Warhol"
+// "Miniature Artists -- Andy Warhol"
+// All Rights Reserved
 
 export default function sketch(andy) {
   const canvasSize = 500; // size of the canvas

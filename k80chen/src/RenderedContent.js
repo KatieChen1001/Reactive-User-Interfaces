@@ -15,9 +15,6 @@ class RenderedContent extends Component {
     let PicassoRam2 = getRandomInt(2);
     let PicassoRam3 = Math.random(0.9);
     let PicassoRam4 = getRandomInt(5);
-    let PicassoRam5 = getRandomInt(2);
-    let PicassoRam6 = getRandomInt(4);
-    let PicassoRam7 = getRandomInt(2);
 
     if (this.props.sketchFileName === "WarholSketch") {
       return <P5Wrapper sketch={WarholSketch} ramBgClr={WarholramBgClr} />;
@@ -29,9 +26,6 @@ class RenderedContent extends Component {
           ramBodyClr={PicassoRam2}
           ramHat={PicassoRam3}
           ramNoseClr={PicassoRam4}
-          ramLegClr={PicassoRam5}
-          ramEarBtmClr={PicassoRam6}
-          ramEarClr={PicassoRam7}
         />
       );
     else if (this.props.sketchFileName === "MalevinchSketch")
