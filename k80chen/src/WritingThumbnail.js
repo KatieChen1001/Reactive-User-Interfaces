@@ -5,16 +5,17 @@ class WritingThumbnail extends Component {
     return (
       <div className="articleThumbnail-wrapper">
         <div className="articleImage-wrapper">
-          <img src="/assets/0.jpg" alt="placeholder" />
-        </div>
-
-        <h1>{this.props.articleTitle}</h1>
-        <div className="articleThumbnail-icon-container">
-          <i className="far fa-calendar-alt" />
-          <span>Jan 8th, 2018 </span>
+          <img src={this.props.articleHeaderImg} alt="placeholder" />
         </div>
         <div className="articleSnapshot-text-wrapper">
-          <p>{this.props.articleSnapshot}</p>
+          <h1 className="articleSnapshot">{this.props.articleTitle}</h1>
+          <div className="articleThumbnail-icon-container">
+            <i className="far fa-calendar-alt" />
+            <span className="articleThumbnail-span">
+              {this.props.articleDate}
+            </span>
+          </div>
+          <p className="articleSnapshot">{this.props.articleSnapshot}</p>
         </div>
       </div>
     );

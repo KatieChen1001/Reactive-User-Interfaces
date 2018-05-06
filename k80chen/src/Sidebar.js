@@ -15,7 +15,10 @@ class Sidebar extends Component {
     });
     return (
       <div className="article-listing-sidebar">
-        <ul>{tags}</ul>
+        <ul>
+          {tags}
+          <SidebarItem tagName="See All >" onClick={this.onClick} />
+        </ul>
       </div>
     );
   }

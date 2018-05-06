@@ -7,8 +7,8 @@ class ProjectThumbnail extends Component {
       <div className={"project-thumbnail " + idName}>
         <div className="project-text-wrapper">
           <h1>{this.props.projectTitle}</h1>
-          <p>{this.props.description}</p>
-          <span>{this.props.keywords}</span>
+          <p className="project-text-wrapper">{this.props.description}</p>
+          <span className="project-text-wrapper">{this.props.keywords}</span>
         </div>
       </div>
     );

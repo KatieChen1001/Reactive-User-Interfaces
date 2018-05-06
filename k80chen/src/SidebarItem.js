@@ -9,7 +9,11 @@ class SidebarItem extends Component {
     this.props.onClick(this.props.tagName);
   }
   render() {
-    return <li onClick={this.onClick}>{this.props.tagName}</li>;
+    return (
+      <li onClick={this.onClick}>
+        <a href="#">{this.props.tagName}</a>
+      </li>
+    );
   }
 }
 

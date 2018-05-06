@@ -27,12 +27,19 @@ class Writing extends Component {
     } else {
       filteredArticle = totalArticle;
     }
+
+    if (this.state.tagClicked == "See All >") {
+      filteredArticle = totalArticle;
+    }
+
     let articleListing = filteredArticle.map((articles, i) => {
       return (
         <Link to={"/writings/" + articles.id} key={"/writings/" + articles.id}>
           <WritingThumbnail
             articleTitle={articles.title}
             articleSnapshot={articles.snapshot}
+            articleDate={articles.date}
+            articleHeaderImg={articles.headerImgURL}
             key={i}
           />
         </Link>
