@@ -29,7 +29,10 @@ a:hover {
 
 .landing-page-container.left {
   grid-column: [first-col-start] / [second-col-start];
-  background-color: #d6f1f2;
+  /* background-image: url("http://localhost:3000/assets/code.gif");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #bae9ea;
 }
 
 .landing-page-container.right {
@@ -37,9 +40,23 @@ a:hover {
   background-color: #f2d7d6;
 }
 
-.landing-page-container h1 {
+.landing-page-container a {
   text-align: center;
+  color: white;
 }
+/* @keyframes toFocus {
+  from {
+    background-color: #d6f1f2;
+  }
+  to {
+    background: radial-gradient(#e66465, #9198e5);
+  }
+}
+
+.landing-page-container.left:hover {
+  animation: toFocus 5s;
+  animation-timing-function: ease-in;
+} */
 
 /* Display Area, subject to change based on screen size */
 .display-area {
@@ -98,7 +115,6 @@ li {
 } */
 .project-text-wrapper:hover {
   cursor: pointer;
-  opacity: 0.5;
 }
 .project-text-wrapper h1 {
   text-transform: uppercase;
@@ -140,7 +156,7 @@ span.project-text-wrapper {
 
 h1.project-title {
   font-size: 3em;
-  margin-bottom: 0.1em;
+  /* margin-bottom: 0.1em; */
   font-weight: 300;
 }
 
@@ -382,4 +398,20 @@ li.hologlass-listing {
 
 #mini-poster {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* =============== About Me Page ================ */
+.intro-container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.intro-text-container {
+  /* max-width: 250px; */
+  padding: 0px 40px;
+}
+.intro-img-container {
+  /* border-radius: 3px; */
+  min-width: 200px;
 }

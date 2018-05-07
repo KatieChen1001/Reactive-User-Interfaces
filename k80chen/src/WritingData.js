@@ -29,10 +29,18 @@ const WritingData = [
 
 <p>When I look at Botero’s women, I see women who are relatable, women of reality, women of the mundane, women of life, and of what life has made them become.</p>
 
-
     <img src="../assets/articles/botero/mujerFumando.jpg" />
     <span>“Mujer Fumando”, 1993 – Museo de Antioquia</span>
+    <h3>Saludos al Renacimiento y Baroque</h3>
 
+    <p>Botero’s time in Spain and Italy was largely dedicated to learning from the Renaissance and Baroque masters. In his painting, he often pays homage to famous artists and artwork, but of course with a Boterisque touch.</p>
+
+    <p>A slightly grumpy Courbet, who believes the resemblance and adherence to reality is the objective of an artist. I wonder how Courbet would feel about Botero’s documentation of “reality”.</p>
+
+
+    <p>If Botero’s reference to los maestros was only limited to a few exaggerated portrait reproduction, then it would have made deciphering the clues much less enticing. Botero’s toast to the glorious past sips through in a much more subtle way.</p>
+
+<p>Artists have always played around with illusions to create perspective deceptions, to breach the frame of a painting, to delude the audience of the reality and artwork. Take a closer look at the still life “Mesa de Cocina”, does the hovering buzzing flies remind you of anything? I am thinking the Dutch painter Petrus Christus’s “Carthusian monk” hanging in the MET now.</p>
     `,
     id: "Fernando Botero"
   },
@@ -50,7 +58,7 @@ const WritingData = [
     title: "On the Cerebral Language Switch",
     date: "Jan 8th, 2017",
     tag: "Thoughts",
-    headerImgURL: "./assets/articles/botero/headerImg.jpg",
+    headerImgURL: "./assets/articles/brain.jpg",
     snapshot:
       "What does the life of a multilinguist feel like? Do we really take on a different personality when we speak a different langauge? How does our brain switch on and off different languages? Thoughts on the sexiness of langauges.",
     body: "alsjdaksjbcakshbdgiqwuhdkjxbaljs",
@@ -60,7 +68,7 @@ const WritingData = [
     title: "3Sentence: Algorithms to Live By",
     date: "Jan 8th, 2017",
     tag: "Three Sentence Initiative",
-    headerImgURL: "./assets/articles/botero/headerImg.jpg",
+    headerImgURL: "./assets/articles/algorithms.jpg",
     snapshot:
       "About a month ago, I started the three-sentence initiative or the three-sentence challenge, where I force myself to summarize every book I read in three sentences, and when I write my book summary, I would use three sentences to summarize each chapter. Brain Christian and Thomas Griffiths brillian book Algorithms to live by is now officially the genuine pig for the challenge!",
     body: "alsjdaksjbcakshbdgiqwuhdkjxbaljs",

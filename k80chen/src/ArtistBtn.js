@@ -11,12 +11,12 @@ class ArtistBtn extends Component {
   render() {
     return (
       <div className="artist-btn" onClick={this.onClick}>
-        <a href="https://placeholder.com">
-          <img
-            src="http://via.placeholder.com/100x100"
-            alt={this.props.sketchName}
-          />
-        </a>
+        <img
+          src={"../assets/projects/mini/" + this.props.sketchName + ".png"}
+          alt={this.props.sketchName}
+          width="100px"
+        />
+
         <span>{this.props.btnName}</span>
       </div>
     );

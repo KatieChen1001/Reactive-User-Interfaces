@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 class LandingPage extends Component {
   render() {
+    // <img src="./assets/code.gif" />
     return (
       <div className="landing-page">
         <div className="landing-page-container left">
